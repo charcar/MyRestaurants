@@ -1,9 +1,9 @@
-var githubKey = require('./../.env').githubKey;
-// var username = require('./../js/broswer-interface.js').username;
+var apiKey = require('./../.env').apiKey;
+var username = require('./../js/broswer-interface.js').username;
 
 
 exports.getUser = function(){
-  var username = 
+  var username =
 
 }
 

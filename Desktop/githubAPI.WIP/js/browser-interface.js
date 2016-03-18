@@ -4,9 +4,9 @@ var githubKey = require('./../.env').githubKey;
 
 $(document).ready(function() {
   ('#repoInfo').click(function() {
-    var user = $('#usernameRepos').val();
+    var user = $('#username').val();
     $('#usernameRepos').val("");
-    .show('#showRepos');
+
 
   });
 });
