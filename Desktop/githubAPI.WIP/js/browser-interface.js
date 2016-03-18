@@ -3,7 +3,7 @@ var githubKey = require('./../.env').githubKey;
 // exports.username = user;
 
 $(document).ready(function() {
-  ('#repoInfo').click(function() {
+  $('#search').click(function() {
     var user = $('#username').val();
     $('#usernameRepos').val("");
 
